@@ -1,4 +1,4 @@
-import { ParseResult } from '../types'
+import { Word } from '../types'
 import { MeCab } from '../classes/MeCab'
 
 /**
@@ -10,5 +10,5 @@ export interface IMeCab {
    *
    * @param source 解析する文字列
    */
-  parse(source: string): Promise<ParseResult>
+  parse(source: string): Promise<Word[]>
 }

@@ -1,7 +1,7 @@
 /**
- * ParseResult type.
+ * Word type.
  */
-export type ParseResult = {
+export type Word = {
   /**
    * 表層系
    */
