@@ -83,9 +83,3 @@ export class MeCab implements IMeCab {
     return `${echo} | ${this.command}`
   }
 }
-
-;(async () => {
-  const mecab = new MeCab()
-  const result = await mecab.parse('これはねこさんです。')
-  console.log(result)
-})()
