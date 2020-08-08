@@ -1,4 +1,5 @@
 import { ParseResult } from '../types'
+import { MeCab } from '../classes/MeCab'
 
 /**
  * MeCab interface.
@@ -9,5 +10,5 @@ export interface IMeCab {
    *
    * @param source 解析する文字列
    */
-  parse(source: string): ParseResult
+  parse(source: string): Promise<ParseResult>
 }
