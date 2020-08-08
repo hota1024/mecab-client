@@ -1,5 +1,4 @@
 import { Word } from '../types'
-import { MeCab } from '../classes/MeCab'
 
 /**
  * MeCab interface.
