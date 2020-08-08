@@ -7,6 +7,10 @@
   "author": "hota1024",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "@types/shell-quote": "^1.7.0",
