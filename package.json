@@ -35,5 +35,8 @@
     "testMatch": [
       "**/tests/**/*.test.ts"
     ]
+  },
+  "dependencies": {
+    "shell-quote": "^1.7.2"
   }
 }
