@@ -15,17 +15,17 @@ export type Word = {
   /**
    * 品詞細分類1
    */
-  compound1?: string
+  compound1: string
 
   /**
    * 品詞細分類2
    */
-  compound2?: string
+  compound2: string
 
   /**
    * 品詞細分類3
    */
-  compound3?: string
+  compound3: string
 
   /**
    * 活用型
