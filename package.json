@@ -1,10 +1,12 @@
 {
   "name": "mecab-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "MeCab client library written in TypeScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": "https://github.com/hota1024/mecab-client",
   "author": "hota1024",
   "license": "MIT",
