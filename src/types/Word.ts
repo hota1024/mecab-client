@@ -1,3 +1,5 @@
+import { Lexical } from './Lexical'
+
 /**
  * Word type.
  */
@@ -10,7 +12,7 @@ export type Word = {
   /**
    * 品詞
    */
-  lexical: string
+  lexical: Lexical
 
   /**
    * 品詞細分類1
