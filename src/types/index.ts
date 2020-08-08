@@ -1,2 +1,2 @@
 export * from './LiteralString'
-export * from './ParseResult'
+export * from './Word'
