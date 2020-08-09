@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "doc": "typedoc --out ./docs ./src"
   },
   "devDependencies": {
     "@types/jest": "^26.0.9",
