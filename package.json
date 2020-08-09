@@ -11,6 +11,11 @@
   "author": "hota1024",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "TypeScript",
+    "MeCab",
+    "morphological-analysis"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest --coverage"
